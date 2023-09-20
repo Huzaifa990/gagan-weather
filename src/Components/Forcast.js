@@ -142,7 +142,7 @@ export default function Forcast() {
                 timezone={"US/Pacific"}
               ></Clock>
             </h1>
-            <h3>06 Sept 2023</h3>
+            <h3>10 Sept 2023</h3>
           </div>
           <div className="temperature-box">
             {error === false ? (
