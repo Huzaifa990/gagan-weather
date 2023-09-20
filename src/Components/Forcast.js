@@ -21,7 +21,7 @@ export default function Forcast() {
     async function getData() {
       if(city !== ""){
         var response = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ca8c2c7970a09dc296d9b3cfc4d06940`
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ca8c2c7970a09dc296d9b3cfc4d06940`
         );
         console.log(response.status);
 
